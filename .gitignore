@@ -1,1 +1,55 @@
+# === Python ===
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Virtual Environments ===
+venv/
+env/
+.venv/
+ENV/
+
+# === Environment Variables ===
 .env
+.env.*
+
+# === Logs and Debug Files ===
+*.log
+*.pot
+*.mo
+*.sqlite3
+
+# === Test and Coverage Reports ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+.pytest_cache/
+
+# === Jupyter Notebooks Checkpoints ===
+.ipynb_checkpoints/
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# === Pydantic / Mypy / Lint Cache ===
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
